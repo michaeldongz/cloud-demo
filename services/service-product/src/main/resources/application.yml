@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.93.186.33:8848
+
+server:
+  port: 9881

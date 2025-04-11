@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.93.186.33:8848
+#        namespace: public  # 使用public命名空间(默认空间)，或者直接不配置这行
+#        group: DEFAULT_GROUP  # 默认组，可不配置
+#        register-enabled: true  # 默认true，可不配置
+
+server:
+  port: 8881
